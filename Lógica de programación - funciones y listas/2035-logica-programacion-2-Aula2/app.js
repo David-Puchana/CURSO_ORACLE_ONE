@@ -11,7 +11,6 @@ function asignarTextoElemento(elemento, texto) {
 
 function verificarIntento() {
     let numeroDeUsuario = parseInt(document.getElementById('valorUsuario').value);
-    
     if (numeroDeUsuario === numeroSecreto) {
         console.log('Acertaste el número!');
     } 
@@ -19,9 +18,14 @@ function verificarIntento() {
 }
 
 
+function doubleNumber() {
+    let numeroDeUsuario = parseInt(document.getElementById('valorUsuario_2').value);    
+    console.log(numeroDeUsuario*numeroDeUsuario)
+}
+
+
 function generarNumeroSecreto() {
     return Math.floor(Math.random()*10)+1;
-
 }
 
 asignarTextoElemento('h1','Juego del número secreto!');

@@ -87,6 +87,7 @@ body::before {
     font-size: 24px;
     font-weight: 700;
     font-family: 'Inter', sans-serif;
+    margin-top: 15px;
 }
 
 .container__botones {
